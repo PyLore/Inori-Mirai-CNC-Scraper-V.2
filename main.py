@@ -76,9 +76,6 @@ class Inori:
     def urlhaus() -> list[str, ...]: # type: ignore
         """Scrape URLHAUS for Mirai CNC's.
 
-        Args:
-            None
-
         Return: 
             list(str, ...): List containing all server IP's from database.
         """
@@ -130,9 +127,6 @@ class Inori:
     def fire(self: Inori) -> None:
         """Main function that starts each thread.
 
-        Args:
-            None
-
         Return: 
             None
         """
@@ -144,11 +138,8 @@ class Inori:
         """Thread that cycles through the list
            and selects one entry at a time (each thread).
 
-            Args:
-                None
-
-            Returns: 
-                None
+        Returns: 
+            None
         """
 
         '''Proper cycle system.'''
