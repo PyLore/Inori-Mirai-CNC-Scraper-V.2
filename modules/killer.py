@@ -66,12 +66,9 @@ class ManaKiller:
     
     def execute(self) -> bool | None:
         """Execute OOB exploit.
-
-        Args:
-            None
         
         Return: 
-            bool
+            bool, None
         """
         # NOTE: Verify whether the CNC is running on port 1791.
         if self.exploit():
